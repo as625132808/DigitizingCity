@@ -48,67 +48,48 @@ module.exports = {
         // expiresIn: 10, //1天, token过期时间,单位秒,
 
     },
-<<<<<<< .mine
+
     redis: {
         port: 6379,
         host: 'localhost',
 
     },
-||||||| .r1401
-    redis: {
-        port: 6379,
-        host: 'http://172.16.187.83',
 
-    },
-=======
->>>>>>> .r1404
+
     redisConfig: {
-<<<<<<< .mine
+
         port: 6379,
         host: 'localhost',
         password: 'kmlc3302133',
         db: 4
-||||||| .r1401
-=======
-        port: 6378,
-        host: '120.77.65.31',
-        password: 'Kmlc3302133',
-        // auth_pass:'Kmlc3302133',
-        db: 4
->>>>>>> .r1404
-        // port: 6378,
-<<<<<<< .mine
-        // host: '192.168.12.114',
-||||||| .r1401
+
         // host: '120.77.65.31',
         // password: 'Kmlc3302133',
         // // auth_pass:'Kmlc3302133',
         // db: 4
         // port: 6378,
         // host: '192.168.12.114',
-=======
+
         // host: '192.168.12.114',
         // password: 'Kmlc3302133',
         // db: 4
         // port: 6379,
         // host: '127.0.0.1',
->>>>>>> .r1404
+
         // password: 'Kmlc3302133',
-<<<<<<< .mine
+
         // db: 4
         // port: 6379,
         // host: '172.16.187.83',
         // password: 'kmlc3302133',
         // db: 4
-||||||| .r1401
+
         // db: 4
-        port: 6379,
-        host: '127.0.0.1',
-        password: 'Kmlc3302133',
-        db: 4,
-=======
+        // port: 6379,
+        // host: '127.0.0.1',
+        // password: 'Kmlc3302133',
         // db: 4,
->>>>>>> .r1404
+
     },
     nameSpace: {
         JDSL_QUEUE: 'jdsl:queue',//监督受理中心人员队列

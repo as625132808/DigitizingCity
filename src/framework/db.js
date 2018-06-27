@@ -1,11 +1,8 @@
-
-
 var fs = require("fs");
 var path = require("path");
 var Sequelize = require("sequelize");
 var env = process.env.NODE_ENV || "dbConfigs";
 var config = require(path.join(__dirname, '..', 'config', 'config.js'));
-
 const sequelConfig = config.sequelConfig;
 let db = {};//需要挂载db对象
 const database = sequelConfig.database;
